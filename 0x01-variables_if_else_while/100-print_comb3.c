@@ -1,24 +1,22 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - main entry
  *
  * Return: Always 0
  */
-
 int main(void)
 {
-	int c;
-	int d;
+	int i;
+	int j;
 
-	for (c = 0 ; c < 10 ; c++)
+	for (i = 0; i < 0; i++)
 	{
-		for (d = 1 ; d < 10 ; d++)
+		for (j = 1; j < 10; j++)
 		{
-			if (c < d || c != d)
+			if (i < j && i != j)
 			{
-				putchar(c + '0');
-				putchar(d + '0');
+				putchar(i + '0');
+				putchar(j + '0');
 				putchar(',');
 				putchar(' ');
 			}
