@@ -3,7 +3,7 @@
 /**
  * main - A progrm that prints a line to the std error
  *
- * Return: Always 1
+ * Return: 1
  */
 
 int main(void)
